@@ -4,7 +4,9 @@
 
 [Download Node.js](https://nodejs.org/en/download)
 
-## Criar o Projeto com React usando Vite 
+<details>
+   <summary><h3>Criar o Projeto com React usando Vite</h3></summary>
+   <br>
 
 [Documentação do Vite](https://vitejs.dev/guide/)
 
@@ -20,7 +22,11 @@ Ok to proceed? (y) y
 ```
 `npm install`, depois `npm run dev`
 
-## Configuração Parcial dos padrões de código
+</details>
+  
+<details>
+   <summary><h3>Configuração Parcial dos padrões de código</h3></summary>
+   <br>
 
 Comandos para instalar o **Prettier** e o **Lint**
 
@@ -43,3 +49,5 @@ O Prettier é útil para evitar debates sobre estilos de código e economizar te
 [Documentação do Prettier](https://prettier.io/)
 
 [GitHub do Prettier](https://github.com/prettier/prettier)
+
+</details>  

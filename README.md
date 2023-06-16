@@ -53,3 +53,71 @@ O Prettier é útil para evitar debates sobre estilos de código e economizar te
 [GitHub do Prettier](https://github.com/prettier/prettier)
 
 </details>  
+
+<details>
+   <summary><h3>Styled-Components</h3></summary>
+   <br>
+
+[Documentação Styled-Componets](https://styled-components.com/)
+
+`npm install styled-components` ou `yarn add styled-components`
+
+```
+import styled from 'styled-components';
+
+// Exemplo de um componente estilizado
+const Button = styled.button`
+  background-color: #fca311;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e5a00d;
+  }
+`;
+
+// Uso do componente estilizado
+function App() {
+  return (
+    <div>
+      <Button>Click me!</Button>
+    </div>
+  );
+}
+```
+
+Em resumo, styled-components é uma biblioteca que facilita a estilização de componentes React, oferecendo uma sintaxe elegante e recursos poderosos para criar estilos de forma mais simples, modular e reutilizável.
+
+</details>
+
+<details>
+   <summary><h3>Ant Design</h3></summary>
+   <br>
+
+[Documentação Ant Design](https://ant.design/)
+
+`npm install antd` ou `yarn add antd`
+
+Exemplo simples do uso da ferramenta:
+
+```
+import { Button, DatePicker } from 'antd';
+
+function App() {
+  return (
+    <div>
+      <Button type="primary">Clique aqui</Button>
+      <DatePicker />
+    </div>
+  );
+}
+```
+
+O uso do Ant Design pode ajudar a acelerar o desenvolvimento de interfaces de usuário atraentes e funcionais em seus aplicativos React, oferecendo uma ampla gama de componentes prontos para uso e um design consistente e moderno.
+
+
+</details>   

@@ -29,6 +29,8 @@ Ok to proceed? (y) y
    <br>
 
 Comandos para instalar o **Prettier** e o **Lint**
+   
+Os arquivos são instalados nas dependencia `devDependencies` por serem usadas apenas durante a produção do projeto, não sendo útil para os usuários comuns.
 
 Executar: `npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-simple-import-sort pre-commit prettier`
 

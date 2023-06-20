@@ -1,6 +1,6 @@
 # vendas-online-web
 
-## Instalar o node.js 
+## Instalar o node.js
 
 [Download Node.js](https://nodejs.org/en/download)
 
@@ -11,6 +11,7 @@
 [Documentação do Vite](https://vitejs.dev/guide/)
 
 Exucutar: `npm create vite@latest`
+
 ```
 Need to install the following packages:
   create-vite@4.3.2
@@ -20,6 +21,7 @@ Ok to proceed? (y) y
 ✔ Select a framework: › React
 ✔ Select a variant: › TypeScript
 ```
+
 `npm install`, depois `npm run dev`
 
 </details>
@@ -29,7 +31,7 @@ Ok to proceed? (y) y
    <br>
 
 Comandos para instalar o **Prettier** e o **Lint**
-   
+
 Os arquivos são instalados nas dependencia `devDependencies` por serem usadas apenas durante a produção do projeto, não sendo útil para os usuários comuns.
 
 Executar: `npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-simple-import-sort pre-commit prettier`
@@ -52,7 +54,7 @@ O Prettier é útil para evitar debates sobre estilos de código e economizar te
 
 [GitHub do Prettier](https://github.com/prettier/prettier)
 
-</details>  
+</details>
 
 <details>
    <summary><h3>Styled-Components</h3></summary>
@@ -119,5 +121,4 @@ function App() {
 
 O uso do Ant Design pode ajudar a acelerar o desenvolvimento de interfaces de usuário atraentes e funcionais em seus aplicativos React, oferecendo uma ampla gama de componentes prontos para uso e um design consistente e moderno.
 
-
-</details>   
+</details>

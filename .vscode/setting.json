@@ -1,0 +1,12 @@
+{
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
+}

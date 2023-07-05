@@ -9,7 +9,7 @@ interface InputProps extends InputPropsAntd {
 const Input = ({ title, ...props }: InputProps) => {
   return (
     <BoxInput>
-      {title && <TitleInput>{title}</TitleInput>}
+      {title && <TitleInput type="danger">{title}</TitleInput>}
 
       <Inputantd {...props} />
     </BoxInput>

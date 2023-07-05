@@ -1,5 +1,5 @@
+import { Space, Typography } from "antd";
 import styled from "styled-components";
-import { Space, Typography } from 'antd';
 
 const { Text, Title } = Typography;
 

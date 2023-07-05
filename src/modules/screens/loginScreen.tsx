@@ -16,10 +16,12 @@ const LoginScreen = () => {
       <ContainerLogin>
         <LimitedContainer>
           <LogoImage src="./coracao.png" />
-          <TitleLogin level={2} type="danger" >Login</TitleLogin>
+          <TitleLogin level={2} type="danger">
+            Login
+          </TitleLogin>
           <Input title="Usuário" />
           <Input title="Senha" />
-          <Button type="primary" margin="64px 0px 16px 0px" danger >
+          <Button type="primary" margin="64px 0px 16px 0px" danger>
             Entrar
           </Button>
         </LimitedContainer>

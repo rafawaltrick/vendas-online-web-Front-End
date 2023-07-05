@@ -1,12 +1,13 @@
 import { ButtonProps } from "antd";
+
 import { ButtonAntd } from "./Button.styles";
 
 interface ButtonCurrentProps extends ButtonProps {
-    margin?: string;
-};
+  margin?: string;
+}
 
 const Button = ({ margin, ...props }: ButtonCurrentProps) => {
-    return <ButtonAntd style={{ margin: margin}} {...props} />;
+  return <ButtonAntd style={{ margin: margin }} {...props} />;
 };
 
 export default Button;

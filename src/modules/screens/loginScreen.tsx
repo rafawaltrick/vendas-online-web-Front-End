@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import Button from "../../shared/buttons/button/Button";
 import Input from "../../shared/inputs/input/input";
 import {
@@ -11,8 +12,8 @@ import {
 } from "../styles/loginScreen.styles";
 
 const LoginScreen = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleUsername = (event: React.ChangeEvent<HTMLInputElement>) => {
     setUsername(event.target.value);
@@ -35,9 +36,25 @@ const LoginScreen = () => {
           <TitleLogin level={2} type="danger">
             Login
           </TitleLogin>
-          <Input title="Usuário" margin="32px 0px 0px" onChange={handleUsername} value={username} />
-          <Input type="password" title="Senha" margin="32px 0px 0px" onChange={handlePassword} value={password} />
-          <Button type="primary" margin="64px 0px 16px 0px" onClick={handleLogin} danger >
+          <Input
+            title="Usuário"
+            margin="32px 0px 0px"
+            onChange={handleUsername}
+            value={username}
+          />
+          <Input
+            type="password"
+            title="Senha"
+            margin="32px 0px 0px"
+            onChange={handlePassword}
+            value={password}
+          />
+          <Button
+            type="primary"
+            margin="64px 0px 16px 0px"
+            onClick={handleLogin}
+            danger
+          >
             Entrar
           </Button>
         </LimitedContainer>
